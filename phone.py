@@ -89,7 +89,7 @@ class IPhone(Phone):
     def view_phone_number(self):
         print(f"Phone number: {self.phone_number}")
 
-zach_phone = iPhone('111-111-1111', 'black')
+zach_phone = IPhone('111-111-1111', 'black')
 
 zach_phone.view_battery_life()
 zach_phone.charge_phone(200)
